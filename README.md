@@ -1,56 +1,96 @@
-# Welcome to your Expo app 👋
+# 🌴 BoraNatal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Descubra Natal, Rio Grande do Norte!**
 
-## Get started
+O BoraNatal é um aplicativo mobile desenvolvido para facilitar a descoberta de pontos turísticos, praias, atrações culturais e experiências na cidade de Natal, no Rio Grande do Norte.
 
-1. Install dependencies
+O projeto tem como objetivo incentivar o turismo regional, oferecendo aos usuários uma maneira prática e intuitiva de explorar destinos, conhecer informações sobre os locais e organizar seus passeios.
 
-   ```bash
-   npm install
-   ```
+## 🚀 Funcionalidades
 
-2. Start the app
+- **Explorar destinos:** visualização de diferentes pontos turísticos de Natal e região.
+- **Pesquisa:** busca por nome, cidade, categoria e descrição.
+- **Categorias:** filtros para encontrar praias, natureza, cultura e aventura.
+- **Favoritos:** possibilidade de marcar destinos favoritos.
+- **Roteiro de viagem:** organização de destinos para visitar.
+- **Detalhes dos destinos:** informações e descrições dos locais.
+- **Integração com Google Maps:** acesso à localização dos destinos.
+- **Compartilhamento:** compartilhamento de informações sobre os pontos turísticos.
+- **Clima:** consulta das condições meteorológicas utilizando a API Open-Meteo.
+- **Avaliações e comentários:** interação com os destinos por meio de avaliações.
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tecnologias utilizadas
 
-In the output, you'll find options to open the app in a
+- React Native
+- Expo
+- TypeScript
+- JavaScript
+- StyleSheet
+- React Hooks
+- Open-Meteo API
+- Google Maps
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 💻 Como executar o projeto
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 1. Pré-requisitos
 
-## Get a fresh project
+- Node.js instalado.
+- npm instalado.
+- Visual Studio Code.
+- Expo Go no celular ou emulador Android.
 
-When you're ready, run:
+### 2. Clonar o repositório
 
 ```bash
-npm run reset-project
+git clone URL_DO_REPOSITORIO
 ```
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+### 3. Entrar na pasta
 
-### Other setup steps
+```bash
+cd BoraNatal
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### 4. Instalar as dependências
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 5. Executar o aplicativo
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+Para limpar o cache do Expo:
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start -c
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📱 Plataforma
+
+O BoraNatal está sendo desenvolvido com React Native e Expo, visando oferecer uma experiência mobile e facilitar o acesso às informações turísticas.
+
+## 🎯 Objetivo do projeto
+
+Desenvolver uma solução tecnológica voltada ao turismo do Rio Grande do Norte, utilizando conhecimentos de desenvolvimento mobile, integração com APIs, interfaces interativas e organização de informações.
+
+O projeto também representa uma aplicação prática dos conhecimentos adquiridos em Ciência da Computação.
+
+## 🔮 Melhorias futuras
+
+- Integração com banco de dados.
+- Cadastro e autenticação de usuários.
+- Persistência de destinos favoritos.
+- Avaliações e comentários salvos.
+- Cadastro de estabelecimentos turísticos.
+- Recomendações personalizadas com Inteligência Artificial.
+- Publicação do aplicativo para Android e iOS.
+
+## 👨‍💻 Desenvolvedor
+
+Projeto desenvolvido como iniciativa de portfólio na área de desenvolvimento de software e tecnologia.
+
+**BoraNatal — Explore, descubra e viva Natal!** 🌴
