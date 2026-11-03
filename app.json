@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "turismo-natalrn",
-    "slug": "turismo-natalrn",
+    "name": "BoraNatal",
+    "slug": "bora-natal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.yestaque.turismonatalrn"
     },
     "web": {
       "output": "server",
@@ -37,6 +38,16 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "f7b2cc87-b796-400d-a1cc-6b83ad90c622"
+      }
     }
   }
 }
