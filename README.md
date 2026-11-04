@@ -94,3 +94,6 @@ O projeto também representa uma aplicação prática dos conhecimentos adquirid
 Projeto desenvolvido como iniciativa de portfólio na área de desenvolvimento de software e tecnologia.
 
 **BoraNatal — Explore, descubra e viva Natal!** 🌴
+
+🤖 Open this link on your Android devices (or scan the QR code) to install the app:
+https://expo.dev/accounts/yestaque/projects/turismo-natalrn/builds/c267ff7e-e1df-421d-abd9-ad16115d2606
